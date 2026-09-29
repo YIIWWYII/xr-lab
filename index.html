@@ -1,0 +1,63 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="description" content="泰山职业技术学院虚拟现实技术应用：体验 VR、AR、MR、全景、数字孪生与虚拟仿真。">
+<meta name="theme-color" content="#050609"><title>XR LAB · 虚拟现实技术应用</title>
+<link rel="icon" href="data:,">
+<link rel="stylesheet" href="assets/pannellum.css"><link rel="stylesheet" href="style.css?v=glass7">
+</head>
+<body>
+<a class="skip-link" href="#experiments">跳至互动实验</a>
+<header class="header wrap">
+<a class="brand" href="#" aria-label="XR LAB 首页"><span class="brand-symbol">X<span>R</span></span><span class="brand-mark">LAB</span><span class="brand-school">泰山职业技术学院<small>信息技术工程系</small></span></a>
+<nav aria-label="主导航"><a href="#experiments">探索六个案例</a><a href="#film">观看短片</a><a href="#applications">应用方向</a></nav>
+<a class="header-end" href="#about">虚拟现实技术应用 <i data-lucide="arrow-up-right"></i></a>
+</header>
+<main>
+<section class="hero" aria-labelledby="hero-title">
+<div id="hero-scene" class="hero-scene" role="img" aria-label="有纹理与材质细节的航天员三维模型"><div class="scene-fallback">正在进入空间…</div></div>
+<div class="hero-copy wrap"><p class="eyebrow"><span class="status-dot"></span>虚拟现实技术应用 · 交互体验展</p>
+<h1 id="hero-title"><span class="hero-en">虚拟<br><em>现实</em></span><span class="hero-cn">现实之外，由你抵达。</span></h1>
+<p class="hero-description">进入另一个现场。让数字与现实相遇。<br>你的每次操作，都让这个世界有所不同。</p>
+<div class="hero-actions"><a class="action action-dark" href="#experiments">开启探索 <i data-lucide="arrow-up-right"></i></a><a class="watch-link" href="#film"><span class="play-circle"><i data-lucide="play"></i></span><span>观看短片<small>44 秒 / 从看见，到在场</small></span></a></div></div>
+<div class="hero-caption" aria-live="off"><span class="mission-dot"></span><div><span>EXHIBIT 001</span><b>舱外世界</b><p>月面考察 / VR 独立体验</p></div></div>
+<div class="hero-reel wrap" aria-label="首屏场景轮播"><div class="hero-reel-tabs" role="group" aria-label="选择预览场景"><button data-hero="vr" aria-pressed="true"><span>01</span>月面<i></i></button><button data-hero="ar" aria-pressed="false"><span>02</span>家居<i></i></button><button data-hero="mr" aria-pressed="false"><span>03</span>展厅<i></i></button><button data-hero="pano" aria-pressed="false"><span>04</span>全景<i></i></button><button data-hero="twin" aria-pressed="false"><span>05</span>动力<i></i></button><button data-hero="sim" aria-pressed="false"><span>06</span>巡检<i></i></button></div><a class="hero-enter" href="#experiments" id="hero-enter">体验这个场景 ↗</a></div>
+<button class="icon-button hero-pause" id="hero-pause" title="暂停场景" aria-label="暂停场景"><i data-lucide="pause"></i></button>
+<div class="hero-foot wrap"><span>泰山职业技术学院 · 信息技术工程系</span><a href="#experiments">向下，进入现场 <i data-lucide="arrow-down"></i></a></div>
+</section>
+<section class="experiments" id="experiments" aria-labelledby="lab-heading">
+<div class="wrap section-head"><div><p class="eyebrow">THE EXPERIENCE / 沉浸现场</p><h2 id="lab-heading">六个现场，<br>六种亲手体验。</h2></div><p>在月面漫游，在房间摆放家具。<br>每个案例，都有自己的场景与任务。</p></div>
+<div class="wrap selector-wrap"><div class="tech-tabs" id="tech-tabs" role="tablist" aria-label="六种技术"></div></div>
+<div class="lab-content" id="lab-panel" role="tabpanel" tabindex="0">
+<div class="wrap lab-heading"><div><p class="eyebrow" id="case-kicker"></p><h3 id="case-title"></h3></div><p id="case-description"></p><button class="icon-button" id="lab-reset" title="重置当前实验" aria-label="重置当前实验"><i data-lucide="rotate-ccw"></i></button></div>
+<div class="lab-stage" id="lab-stage">
+<div class="lab-photo" id="lab-photo"></div><div class="lab-canvas" id="lab-canvas" role="img" aria-label="技术互动三维场景"></div><div id="panorama" hidden></div>
+<div class="stage-corner stage-top"><span id="stage-label">VIRTUAL SPACE</span><span class="stage-tag" id="stage-tag">交互场景</span></div>
+<div class="stage-corner stage-bottom"><span id="stage-status" role="status">着陆点 · 拖动环顾</span><div class="stage-actions" id="stage-actions"></div></div>
+<div class="telemetry" id="telemetry" hidden><span>遥测面板 · 模拟数据</span><div><small>发动机转速</small><b id="rpm">0 <em>rpm</em></b></div><div><small>机体温度</small><b id="temperature">26.0 <em>°C</em></b></div><div><small>运行状态</small><b id="machine-status">正常</b></div><canvas id="chart" width="300" height="90" aria-label="模拟温度曲线"></canvas></div>
+<div class="scene-error" id="scene-error" hidden>当前浏览器无法显示三维场景。请使用支持 WebGL 的浏览器。</div>
+</div>
+<div class="wrap controls" id="lab-controls"></div>
+<div class="wrap case-film-wrap"><details class="case-film" id="case-film"><summary><span class="case-film-play" aria-hidden="true">▶</span><span><strong id="case-film-title">月面考察 · 操作演示</strong><small>先看演示，再亲手试试</small></span><span class="case-film-time" id="case-film-time">00:15</span></summary><div class="case-film-body"><video id="case-video" controls playsinline preload="none" aria-label="当前案例操作演示"></video><div class="case-film-caption"><span>中文合成配音 · 画面字幕 · 原创配乐</span><a id="case-video-download" href="film/demos/vr.mp4" download>下载本段演示 ↗</a></div></div></details></div>
+<div class="wrap lab-notes"><span id="case-note"></span><details><summary>技术原理 <i data-lucide="plus"></i></summary><p id="case-principle"></p></details></div>
+</div>
+</section>
+<section class="film-section" id="film" aria-labelledby="film-heading">
+<div class="wrap section-head"><div><p class="eyebrow">IN MOTION / 技术影像</p><h2 id="film-heading">从看见，<br>到在场。</h2></div><span class="film-length">00:44 <i data-lucide="move-up-right"></i></span></div>
+<div class="wrap"><div class="film-player"><video id="promo" controls playsinline preload="metadata" poster="film/technology-poster.jpg?v=5" aria-label="虚拟现实技术应用宣传短片"><source src="film/technology-promo.mp4?v=5" type="video/mp4">浏览器不支持视频播放，<a href="film/technology-promo.mp4?v=5">下载宣传片</a>。</video></div><div class="film-caption"><span>从看见，到在场 · 音乐剪辑 / 画面文字</span><a href="film/technology-promo.mp4?v=5" download>下载短片 <i data-lucide="download"></i></a></div></div>
+</section>
+<section class="applications wrap" id="applications">
+<div class="section-head"><div><p class="eyebrow">YOUR NEXT STEP / 从这里出发</p><h2>下一个世界，<br>也可以由你创造。</h2></div><p>从空间表达，到交互设计，<br>再到真实问题的解决。</p></div>
+<div class="application-grid">
+<article><div class="application-image"><img src="assets/engineering.jpg" alt="工程设备与操作场景" loading="lazy"><span>01 / INDUSTRY</span></div><h3>实训与工业</h3><p>设备装配 · 安全演练 · 运维监测</p><button class="text-action" data-jump="sim">执行机器人巡检 <i data-lucide="arrow-up-right"></i></button></article>
+<article><div class="application-image"><img src="assets/architecture.jpg" alt="建筑空间结构" loading="lazy"><span>02 / SPACE</span></div><h3>建筑与文旅</h3><p>空间预览 · 全景导览 · 数字展陈</p><button class="text-action" data-jump="pano">环顾一个现场 <i data-lucide="arrow-up-right"></i></button></article>
+<article><div class="application-image"><img src="assets/vr.jpg" alt="头显体验场景" loading="lazy"><span>03 / EXPERIENCE</span></div><h3>内容与交互</h3><p>三维创作 · 虚实融合 · 沉浸体验</p><button class="text-action" data-jump="mr">观察空间遮挡 <i data-lucide="arrow-up-right"></i></button></article>
+</div>
+<div class="learning-path"><span>学习路径</span><b>空间建模</b><i data-lucide="arrow-right"></i><b>交互开发</b><i data-lucide="arrow-right"></i><b>数据连接</b><i data-lucide="arrow-right"></i><b>项目实践</b></div>
+</section>
+<footer id="about"><div class="wrap"><div class="footer-main"><span class="footer-logo">XR LAB<span>↗</span></span><div><h2>虚拟现实技术应用</h2><p>泰山职业技术学院 · 信息技术工程系</p></div><a class="icon-button" href="#" title="返回顶部" aria-label="返回顶部"><i data-lucide="arrow-up"></i></a></div><div class="footer-bottom"><span>概念案例与模拟数据 · 应用影像为场景示意</span><button class="text-action" id="sources-open">技术与素材来源 <i data-lucide="arrow-up-right"></i></button></div></div></footer>
+</main>
+<dialog id="sources"><div class="dialog-head"><h2>技术与素材来源</h2><button class="icon-button" id="sources-close" title="关闭" aria-label="关闭"><i data-lucide="x"></i></button></div><p>本页的三维场景、AR / MR 交互及发动机数据为教学概念演示，不代表实际空间识别、真实设备连接或本校已建项目。</p><h3>影像与字体</h3><p>应用摄影：Unsplash。全景：Greg Zaal / Poly Haven，Rostock-Laage Airport（CC0）。标题：站酷庆科黄油体；英文与数字：Space Grotesk、Archivo（均为 OFL 开源字体）；正文使用系统黑体。当前交互航天服：Astronaut — EMU suit，jgilhutton（Juan Ignacio）创作，CC-BY，来自 BlendSwap；已有演示视频中的历史航天服署名保留在素材清单中。椅子、头盔、发动机来自 Khronos glTF 示例库；机器人来自 Three.js RobotExpressive 示例。月球纹理来自 Three.js 示例资源。详细署名与许可见 assets/CASE-ASSETS.txt。本页修改了模型的灯光、大小和场景。</p><h3>呈现技术</h3><p>Three.js、Anime.js、Pannellum 与 Lucide。影片使用 onetake 动效库，许可文件随源文件保留。中文旁白为 Xiaoxiao 合成语音；配乐由本项目程序原创合成。影片内已含字幕，也提供独立字幕文件。</p><div class="source-links"><a href="assets/CASE-ASSETS.txt" target="_blank" rel="noreferrer">六个案例素材与许可 ↗</a><a href="https://polyhaven.com/a/rostock_laage_airport" target="_blank" rel="noreferrer">全景来源 ↗</a><a href="https://3d.si.edu/object/3d/neil-armstrong-spacesuit:d8c63ba6-4ebc-11ea-b77f-2e728ce88125" target="_blank" rel="noreferrer">航天服模型来源 ↗</a><a href="https://developer.mozilla.org/en-US/docs/Web/API/WebXR_Device_API" target="_blank" rel="noreferrer">WebXR 技术参考 ↗</a></div></dialog>
+<script src="assets/lucide.js"></script><script src="assets/anime.js"></script><script src="assets/pannellum.js"></script><script src="app.js?v=emu10"></script><script src="motion.js?v=motion4"></script><script type="module" src="spatial.js?v=emu9"></script>
+</body></html>

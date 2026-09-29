@@ -1,0 +1,17 @@
+当前网页素材索引
+
+六个案例模型与许可证：CASE-ASSETS.txt、SPACE-ASSETS.txt
+月面摄影纹理：Three.js r170 examples/textures/planets/moon_1024.jpg
+全景：Greg Zaal / Poly Haven，Rostock-Laage Airport，CC0。
+https://polyhaven.com/a/rostock_laage_airport
+
+应用场景摄影：Unsplash
+https://images.unsplash.com/photo-1593508512255-86ab42a8e620
+https://images.unsplash.com/photo-1581092921461-eab62e97a780
+https://images.unsplash.com/photo-1518005020951-eccb494ad742
+https://unsplash.com/license
+
+英文 Archivo / Space Grotesk（OFL），中文系统黑体。
+Three.js、Anime.js、Pannellum、Lucide 的许可证在本目录。
+当前宣传片：film/six-scenes.mp4；合成音效：film/six-score.py。
+onetake 许可：film/ONETAKE-LICENSE.txt。

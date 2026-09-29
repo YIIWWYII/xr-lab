@@ -1,0 +1,35 @@
+Current independent cases
+
+VR interactive model: Astronaut - EMU suit - Rigged by jgilhutton (Juan Ignacio).
+Source: https://blendswap.com/blend/12622
+License: CC-BY; original license record is EMU-LICENSE.html.
+Changes: converted legacy Cycles materials to glTF PBR, resized textures, evaluated subdivision and sculpted geometry, adjusted arm pose, baked static geometry, removed rig controls, adapted lighting/scale. Original author not affiliated with this project.
+
+Earlier model retained in legacy recorded videos (current VR demo uses EMU): Neil Armstrong Spacesuit. Smithsonian Digitization Programs Office / National Air and Space Museum. See SPACE-ASSETS.txt for source and usage conditions.
+
+AR: SheenChair. Copyright 2020 Wayfair, LLC. Eric Chadwick. CC0 1.0.
+Source https://github.com/KhronosGroup/glTF-Sample-Assets/tree/main/Models/SheenChair
+Changes: placement, scale, lighting, fabric tint. Source attribution: SheenChair-SOURCE.md.
+
+MR: DamagedHelmet. ctxwing (2018 conversion, CC BY 4.0); theblueturtle_ (2016 earlier model, CC BY-NC 4.0). Noncommercial educational use.
+Source https://github.com/KhronosGroup/glTF-Sample-Assets/tree/main/Models/DamagedHelmet
+Changes: placement, scale, lighting, depth-test comparison. Full legal record: DamagedHelmet-SOURCE.md.
+
+DT: 2CylinderEngine. Khronos glTF Sample Models; JT to COLLADA conversion by Okino Computer Graphics using Polytrans.
+Source https://github.com/KhronosGroup/glTF-Sample-Models/tree/master/2.0/2CylinderEngine
+Upstream attribution preserved in engine/SOURCE.md. Changes: material finish, merged static draw batches, scale and placement. No broader asset license is inferred from the viewer code license.
+
+SIM: RobotExpressive by Tomas Laulhe (Quaternius), modifications by Don McCurdy. CC0. Distributed in Three.js r170 example assets.
+Upstream attribution https://github.com/mrdoob/three.js/blob/r170/examples/webgl_animation_skinning_morph.html
+Source https://github.com/mrdoob/three.js/tree/r170/examples/models/gltf/RobotExpressive
+Changes: animation playback, scale and placement in a custom inspection environment.
+
+Panorama: Rostock-Laage Airport by Greg Zaal / Poly Haven, CC0.
+https://polyhaven.com/a/rostock_laage_airport
+
+Custom rooms, case UI and film composition authored for this project. Film contains rendered appearances of the above assets and retains their attribution.
+
+AR living room photography: Unsplash photo-1600607687939-ce8a6c25118c.
+Source: https://images.unsplash.com/photo-1600607687939-ce8a6c25118c
+License: https://unsplash.com/license
+Used as a photographic backdrop with independently rendered virtual furniture; no camera capture or live spatial tracking.

@@ -1,0 +1,13 @@
+Neil Armstrong Spacesuit
+Provided by Smithsonian Digitization Programs Office and National Air and Space Museum. Usage Conditions Apply.
+Source: https://3d.si.edu/object/3d/neil-armstrong-spacesuit:d8c63ba6-4ebc-11ea-b77f-2e728ce88125
+Usage conditions: https://www.si.edu/Termsofuse
+Distributed file: https://modelviewer.dev/shared-assets/models/NeilArmstrong.glb
+Attribution record: https://github.com/google/model-viewer/blob/master/packages/shared-assets/ATTRIBUTIONS.md
+Scene modifications: scale, position, lighting, environment; original geometry/textures retained.
+The Apache 2.0 license for example code is not a declaration of the Smithsonian model license. No CC0 claim is made here.
+
+Moon surface texture
+https://raw.githubusercontent.com/mrdoob/three.js/r170/examples/textures/planets/moon_1024.jpg
+
+Three.js addons (r170): GLTFLoader, RoomEnvironment, BufferGeometryUtils. Imports adapted to local files. MIT license retained in project assets.
